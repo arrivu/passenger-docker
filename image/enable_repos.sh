@@ -10,7 +10,7 @@ apt-get install -y ca-certificates
 
 ## Brightbox Ruby 1.9.3, 2.0 and 2.1
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C3173AA6
-echo deb http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu trusty main > /etc/apt/sources.list.d/brightbox.list
+echo deb http://ppa.launchpad.net/brightbox/ruby-ng-experimental/ubuntu trusty main > /etc/apt/sources.list.d/brightbox.list
 
 ## Phusion Passenger
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 561F9B9CAC40B2F7
